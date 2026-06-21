@@ -33,18 +33,39 @@
 
 <div class="contact-grid">
 
-<form>
-<input type="text" placeholder="Your Name" required>
+<form id="contactForm">
 
-<input type="email" placeholder="Your Email" required>
+<input
+id="name"
+type="text"
+placeholder="Your Name"
+required>
 
-<input type="tel" placeholder="Phone Number">
+<small id="nameError"></small>
 
-<textarea placeholder="Your Message"></textarea>
+<input
+id="email"
+type="email"
+placeholder="Your Email"
+required>
+
+<small id="emailError"></small>
+
+<input
+id="phone"
+type="tel"
+placeholder="Phone Number">
+
+<small id="phoneError"></small>
+
+<textarea
+placeholder="Your Message">
+</textarea>
 
 <button class="btn" type="submit">
 Send Message
 </button>
+
 </form>
 
 <div>
@@ -62,6 +83,6 @@ src="https://maps.google.com/maps?q=NIT%20Puducherry&t=&z=13&ie=UTF8&iwloc=&outp
 <p>Explore the world with comfort and adventure.</p>
 <p>© 2026 WanderWorld. All Rights Reserved.</p>
 </footer>
-
+<script src="script.js"></script>
 </body>
 </html>

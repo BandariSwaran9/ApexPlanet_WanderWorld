@@ -17,6 +17,13 @@
 <nav>
 <div class="logo">WanderWorld</div>
 
+<button id="themeToggle">
+🌙
+</button>
+<div class="menu-toggle">
+    ☰
+</div>
+
 <ul class="nav-links">
 <li><a href="index.html">Home</a></li>
 <li><a href="destinations.html">Destinations</a></li>
@@ -29,26 +36,65 @@
 
 <section class="hero">
 <div class="container hero-content">
+    <p class="hero-tag">
+✈ Premium Travel Experiences
+</p>
 <h1>Explore The World</h1>
+
 <p>Adventure awaits beyond every horizon.</p>
-<a href="destinations.html" class="btn">Explore Destinations</a>
+
+<div class="hero-buttons">
+
+    <a href="destinations.html" class="btn">
+        Explore Destinations
+    </a>
+
+    <button id="offerBtn" class="btn">
+        Get Special Offer
+    </button>
+
 </div>
+</div>
+
+</section>
+<section class="slider-section">
+
+    <h2 class="section-title">
+        Featured Destinations
+    </h2>
+
+    <div class="slider">
+
+        <img id="sliderImage"
+        src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e">
+
+        <button id="prevBtn">
+            ◀
+        </button>
+
+        <button id="nextBtn">
+            ▶
+        </button>
+
+    </div>
+
 </section>
 <section class="stats container">
 
-<div>
-<h2>50K+</h2>
+<div class="stat-box">
+<h3 class="counter" data-target="500">0</h3>
 <p>Happy Travelers</p>
 </div>
 
-<div>
-<h2>120+</h2>
-<p>Destinations</p>
+<div class="stat-box">
+<h3 class="counter" data-target="50">0</h3>
+<p>Countries</p>
 </div>
 
-<div>
-<h2>15+</h2>
-<p>Years Experience</p>
+<div class="stat-box">
+<h3 class="counter" data-target="100">0</h3>
+<p>Packages</p>
+</div>
 </div>
 
 </section>
@@ -134,6 +180,27 @@
 <p>Explore the world with comfort and adventure.</p>
 <p>© 2026 WanderWorld. All Rights Reserved.</p>
 </footer>
+<button id="topBtn">
+↑
+</button>
+<div id="offerModal" class="modal">
 
+<div class="modal-content">
+
+<span class="close">
+&times;
+</span>
+
+<h2>
+Special Travel Offer
+</h2>
+
+<p>
+Get 20% OFF on summer trips!
+</p>
+
+</div>
+</div>
+<script src="script.js"></script>
 </body>
 </html>
