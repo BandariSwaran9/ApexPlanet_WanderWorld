@@ -124,8 +124,9 @@ document.getElementById("sliderImage");
 
 function showImage(index){
 
-    sliderImage.src =
-    images[index];
+    if (!sliderImage) return;
+
+    sliderImage.src = images[index];
 
 }
 
@@ -156,17 +157,21 @@ document.getElementById("prevBtn")
 
 });
 
-setInterval(()=>{
+if (sliderImage) {
 
-    currentIndex++;
+    setInterval(() => {
 
-    if(currentIndex >= images.length){
-        currentIndex = 0;
-    }
+        currentIndex++;
 
-    showImage(currentIndex);
+        if (currentIndex >= images.length) {
+            currentIndex = 0;
+        }
 
-},3000);
+        showImage(currentIndex);
+
+    }, 3000);
+
+}
 const nameInput =
 document.getElementById("name");
 

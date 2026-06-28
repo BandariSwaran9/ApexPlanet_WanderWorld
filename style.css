@@ -603,3 +603,233 @@ small{
     margin-bottom:10px;
     font-size:14px;
 }
+/* ==========================
+   WEATHER PAGE
+========================== */
+
+.weather-page{
+
+    width:90%;
+    max-width:700px;
+
+    margin:80px auto;
+
+    text-align:center;
+
+}
+
+.weather-page h1{
+
+    font-size:3rem;
+
+    margin-bottom:20px;
+
+}
+
+.weather-page p{
+
+    color:#cccccc;
+
+    margin-bottom:30px;
+
+}
+
+.search-box{
+
+    display:flex;
+
+    justify-content:center;
+
+    gap:15px;
+
+    flex-wrap:wrap;
+
+}
+.search-box input{
+
+    width:320px;
+
+    padding:15px;
+
+    border:none;
+
+    outline:none;
+
+    border-radius:10px;
+
+    font-size:16px;
+
+}
+.search-box button{
+
+    padding:15px 30px;
+
+    border:none;
+
+    border-radius:10px;
+
+    cursor:pointer;
+
+    font-size:16px;
+
+    background:#3b82f6;
+
+    color:white;
+
+    transition:.3s;
+
+}
+
+.search-box button:hover{
+
+    background:#2563eb;
+
+}
+.weather-card{
+
+    margin-top:40px;
+
+    background:rgba(255,255,255,.08);
+
+    backdrop-filter:blur(10px);
+
+    border-radius:20px;
+
+    padding:40px;
+
+    box-shadow:0 0 20px rgba(0,0,0,.3);
+
+}
+.weather-card img{
+
+    width:100px;
+
+    height:100px;
+
+}
+.weather-card h2{
+
+    margin-top:15px;
+
+    font-size:2rem;
+
+}
+.weather-card h3{
+
+    margin:15px 0;
+
+    color:#ddd;
+
+}
+.weather-card h1{
+
+    font-size:4rem;
+
+    color:#4fc3f7;
+
+}
+.weather-card p{
+
+    font-size:20px;
+
+    margin-top:10px;
+
+}
+/* ===========================
+        TODO PAGE
+=========================== */
+
+.todo-page{
+
+    width:90%;
+    max-width:800px;
+    margin:60px auto;
+    text-align:center;
+
+}
+
+.todo-input{
+
+    display:flex;
+    justify-content:center;
+    gap:15px;
+    flex-wrap:wrap;
+    margin:30px 0;
+
+}
+
+.todo-input input{
+
+    width:350px;
+    padding:15px;
+    border:none;
+    outline:none;
+    border-radius:10px;
+    font-size:16px;
+
+}
+
+.todo-input button{
+
+    padding:15px 30px;
+    border:none;
+    border-radius:10px;
+    cursor:pointer;
+    background:#3b82f6;
+    color:white;
+}
+.filters{
+
+    margin:30px;
+
+}
+
+.filters button{
+
+    padding:10px 25px;
+    margin:5px;
+    border:none;
+    cursor:pointer;
+    border-radius:8px;
+
+}
+#taskList{
+
+    list-style:none;
+    margin-top:40px;
+
+}
+#taskList li{
+
+    background:rgba(255,255,255,.08);
+    margin:15px auto;
+    padding:18px;
+    width:90%;
+    border-radius:12px;
+
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+
+}
+.completed{
+
+    text-decoration:line-through;
+    opacity:.6;
+
+}
+.filter-btn.active{
+    background:#3b82f6;
+    color:white;
+}
+
+.completeBtn,
+.editBtn,
+.deleteBtn{
+
+    padding:8px 12px;
+    margin-left:5px;
+    border:none;
+    cursor:pointer;
+    border-radius:6px;
+}

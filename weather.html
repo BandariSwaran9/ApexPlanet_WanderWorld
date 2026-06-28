@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>Weather | WanderWorld</title>
+<link rel="stylesheet" href="style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+<header>
+<div class="container">
+<nav>
+<div class="logo">WanderWorld</div>
+
+<button id="themeToggle">
+🌙
+</button>
+<div class="menu-toggle">
+    ☰
+</div>
+
+<ul class="nav-links">
+    <li><a href="index.html">Home</a></li>
+    <li><a href="destinations.html">Destinations</a></li>
+    <li><a href="packages.html">Packages</a></li>
+    <li><a href="weather.html">Weather</a></li>
+    <li><a href="todo.html">Todo</a></li>
+    <li><a href="contact.html">Contact</a></li>
+</ul>
+</nav>
+</div>
+</header>
+
+<section class="hero">
+<div class="container hero-content">
+    <p class="hero-tag">
+✈ Premium Travel Experiences
+</p>
+<h1>Live Weather Updates</h1>
+
+<p>Check real-time weather before planning your next adventure.</p>
+<div class="hero-buttons">
+
+    <a href="#weather-search" class="btn">
+        Search Weather
+    </a>
+
+    <a href="index.html" class="btn">
+        Back Home
+    </a>
+
+</div>
+</div>
+
+</section>
+<section class="weather-page" id="weather-search">
+
+    <h1>🌤 Live Weather Updates</h1>
+
+    <p>
+        Search the weather of any city before planning your next trip.
+    </p>
+
+    <div class="search-box">
+
+        <input
+            type="text"
+            id="cityInput"
+            placeholder="Enter city name">
+
+        <button id="searchBtn">
+            Search
+        </button>
+
+    </div>
+
+    <div class="weather-card">
+
+        <img
+           id="weatherIcon"
+         style="display:none;"
+         alt="Weather Icon">
+
+        <h2 id="cityName">
+            City Name
+        </h2>
+
+        <h3 id="weatherDescription">
+            Weather Description
+        </h3>
+
+        <h1 id="temperature">
+            --°C
+        </h1>
+
+        <p id="humidity">
+            Humidity : --
+        </p>
+
+        <p id="wind">
+            Wind Speed : --
+        </p>
+
+    </div>
+
+</section>
+<footer>
+<h3>WanderWorld</h3>
+<p>Explore the world with comfort and adventure.</p>
+<p>© 2026 WanderWorld. All Rights Reserved.</p>
+</footer>
+<button id="topBtn">
+↑
+</button>
+<div id="offerModal" class="modal">
+
+<div class="modal-content">
+
+<span class="close">
+&times;
+</span>
+
+<h2>
+Special Travel Offer
+</h2>
+
+<p>
+Get 20% OFF on summer trips!
+</p>
+
+</div>
+</div>
+<script src="script.js"></script>
+<script src="weather.js"></script>
+</body>
+</html>
