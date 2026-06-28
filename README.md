@@ -1,77 +1,84 @@
-# 🌍 WanderWorld - Travel Website
+# WanderWorld - Travel Website
 
-A modern, responsive multi-page travel website built as part of the **ApexPlanet Web Development Internship**.
+## Overview
 
-This project was enhanced over three internship tasks by adding responsive design, advanced JavaScript features, API integration, and mini web applications.
-
----
-
-# 📌 Internship Progress
-
-### ✅ Task 1
-- Responsive Multi-Page Travel Website
-- Home, Destinations, Packages & Contact pages
-- Modern UI Design
-- Responsive Layout using Flexbox & CSS Grid
-
-### ✅ Task 2
-- Dark / Light Theme Toggle
-- Image Slider
-- Animated Counters
-- Responsive Navigation Menu
-- Scroll to Top Button
-- Contact Form Validation
-- Modal Popup
-- JavaScript DOM Manipulation
-
-### ✅ Task 3
-- 🌦 Weather App using OpenWeather API
-- Fetch API
-- Async / Await
-- JSON Parsing
-- Error Handling
-- Weather Icons
-- Search by City
-- Save Last Searched City using LocalStorage
-
-- ✅ Todo List Application
-- Add Tasks
-- Edit Tasks
-- Delete Tasks
-- Mark Tasks as Complete
-- Filter (All / Active / Completed)
-- Save Tasks using LocalStorage
+WanderWorld is a responsive multi-page travel website developed as part of the ApexPlanet Web Development Internship. The project was progressively enhanced across multiple internship tasks by integrating modern JavaScript features, API integration, and interactive mini applications.
 
 ---
 
-# ✨ Features
+## Internship Tasks Completed
 
-- Responsive Multi-Page Website
-- Beautiful Travel Landing Page
-- Destinations Section
+### Task 1 - Responsive Travel Website
+
+- Responsive multi-page website
+- Home, Destinations, Packages, and Contact pages
+- Modern UI using HTML5 and CSS3
+- Responsive layout with Flexbox and CSS Grid
+
+### Task 2 - JavaScript Interactivity
+
+- Dark/Light theme toggle
+- Responsive navigation menu
+- Image slider
+- Animated counters
+- Scroll-to-top button
+- Contact form validation
+- Modal popup
+- DOM manipulation using JavaScript
+
+### Task 3 - API Integration & Mini Applications
+
+#### Weather Application
+
+- Real-time weather information using OpenWeather API
+- Fetch API with Async/Await
+- JSON parsing
+- Error handling for invalid city names
+- Displays:
+  - Temperature
+  - Humidity
+  - Wind Speed
+  - Weather Icon
+- Stores the last searched city using LocalStorage
+
+#### Todo List Application
+
+- Add tasks
+- Edit tasks
+- Delete tasks
+- Mark tasks as completed
+- Filter tasks (All, Active, Completed)
+- Persistent storage using LocalStorage
+
+---
+
+## Features
+
+- Responsive Design
+- Multi-Page Navigation
+- Travel Destinations
 - Travel Packages
 - Contact Form
 - Google Maps Integration
-- Dark / Light Mode
+- Dark/Light Theme
+- Responsive Navigation Menu
 - Image Slider
-- Animated Statistics Counter
-- Scroll to Top Button
-- Responsive Navigation
+- Animated Statistics
 - Weather Application
 - Todo List Application
-- LocalStorage Integration
 - API Integration
-- Modern UI
+- LocalStorage Support
+- Modern User Interface
 
 ---
 
-# 🛠 Technologies Used
+## Technologies Used
 
 - HTML5
 - CSS3
 - JavaScript (ES6)
 - Fetch API
-- Async / Await
+- Async/Await
 - OpenWeather API
 - LocalStorage
 - Flexbox
@@ -80,7 +87,7 @@ This project was enhanced over three internship tasks by adding responsive desig
 
 ---
 
-# 📂 Project Structure
+## Project Structure
 
 ```
 WanderWorld/
@@ -97,79 +104,74 @@ WanderWorld/
 ├── weather.js
 ├── todo.js
 │
-└── README.md
+├── README.md
+└── ApexPlanet_Task_3.mp4
 ```
 
 ---
 
-# 🌦 Weather App
+## Weather Application
 
-Features
+The Weather Application allows users to search for weather conditions in any city using the OpenWeather API.
 
-- Search weather by city
-- Temperature
-- Humidity
-- Wind Speed
-- Weather Icon
+Features include:
+
+- City-based weather search
+- Temperature display
+- Humidity display
+- Wind speed display
+- Weather icons
 - Invalid city handling
-- Last searched city stored using LocalStorage
+- Last searched city saved using LocalStorage
 
 ---
 
-# 📝 Todo App
+## Todo List Application
 
-Features
+The Todo List helps users manage travel-related tasks.
 
-- Add Task
-- Edit Task
-- Delete Task
-- Mark Complete
-- Filter Tasks
-- Save using LocalStorage
-- Data persists after page refresh
+Features include:
+
+- Add new tasks
+- Edit existing tasks
+- Delete tasks
+- Mark tasks as completed
+- Filter tasks by status
+- Save tasks using LocalStorage
+- Persist data after page refresh
 
 ---
 
-# 🚀 How to Run
+## How to Run
 
-1. Clone this repository
+1. Clone the repository
 
-```
-git clone https://github.com/your-username/WanderWorld.git
+```bash
+git clone https://github.com/BandariSwaran9/ApexPlanet_Task_1_WanderWorld.git
 ```
 
 2. Open the project folder.
 
-3. Open `index.html` using Live Server or any browser.
+3. Open `index.html` using Live Server or any modern web browser.
 
 ---
 
-# 📸 Screenshots
+## Future Enhancements
 
-- Home Page
-- Destinations Page
-- Weather App
-- Todo App
-
-(Add screenshots here if needed.)
+- Five-day weather forecast
+- User authentication
+- Travel booking module
+- Backend integration
+- Database connectivity
 
 ---
 
-# 👨‍💻 Developed By
+## Author
 
 **Bandari Swaran**
 
-B.Tech CSE, NIT Puducherry
+B.Tech, Computer Science and Engineering
 
-Developed as part of the **ApexPlanet Web Development Internship**.
+National Institute of Technology Puducherry
 
----
-
-# ⭐ Future Improvements
-
-- User Authentication
-- Travel Booking System
-- Favorite Destinations
-- 5-Day Weather Forecast
-- Backend Integration
-- Database Support
+Developed as part of the ApexPlanet Web Development Internship.
